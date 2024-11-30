@@ -1,0 +1,8 @@
+DB_USER=root
+DB_PASS=root
+DB_HOST=localhost
+DB_NAME=fastquiz-api
+DB_PORT=3306
+FRONTEND_TOKEN="12345"
+CHATGPT_MODEL="gpt-4o-mini"
+CHATGPT_API_KEY=sk-proj-O8A6rXwTGGhUhFV8Zo

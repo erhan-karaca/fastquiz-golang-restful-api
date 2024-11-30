@@ -1,0 +1,43 @@
+# Çalıştırılabilir dosyalar
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Build dosyaları
+main
+dist/
+build/
+
+# Go mod ve cache dosyaları
+*.mod
+*.sum
+/go.sum
+/go.mod
+/bin/
+/vendor/
+
+# Log dosyaları
+*.log
+
+# IDE ve editör dosyaları
+.idea/
+.vscode/
+*.iml
+
+# Test coverage dosyaları
+coverage.out
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Diğer geçici dosyalar
+*.tmp
+*.bak
+*.swp
+*.swo
+
+.env*

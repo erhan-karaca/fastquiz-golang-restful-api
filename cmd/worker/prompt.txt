@@ -1,0 +1,23 @@
+Create a %s-question quiz about the %s "%s". The questions should be written in "%s". The difficulty level of the questions should be "%s" on a scale of 1 to 10, where 1 is easiest and 10 is most challenging.
+
+*Expected JSON format:*
+{
+  "quiz_title": "quiz_title",
+  "questions": [
+    {
+      "question": "question_text",
+      "options": ["a1", "a2", "a3", "a4"],
+      "option_key": 0
+    }
+  ]
+}
+
+*Instructions:*
+1. Return only a valid JSON object that adheres strictly to the provided schema.
+2. The 'quiz_title' should describe the quiz and reference the %s "%s".
+3. Create meaningful and challenging questions specifically about the movie's plot, characters, and universe.
+4. Each question must have exactly 4 unique and plausible options.
+5. Ensure that only one correct answer is included per question, and the correct option's index is indicated in 'option_key' (starting from 0).
+6. Avoid vague or generic questions; focus on details that require thoughtful engagement with the movie.
+7. Do not include any explanations, comments, or text outside the JSON object.
+8. Use proper grammar and clear phrasing in the questions and options.
